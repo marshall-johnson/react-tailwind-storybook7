@@ -1,4 +1,6 @@
-import { StorybookConfig } from "@storybook/react-vite";
+// import { StorybookConfig } from "@storybook/react-vite";
+import type { StorybookConfig } from "@storybook/types";
+
 const config: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
