@@ -3,3 +3,5 @@ coverage
 storybook-static
 out*
 github-pages
+# Local Netlify folder
+.netlify
